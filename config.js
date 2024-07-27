@@ -21,7 +21,7 @@ DEBUG = process.env.DEBUG === undefined ? false : convertToBool(process.env.DEBU
 module.exports = {
   HANDLERS: (process.env.PREFIX || '^[.,!]').trim(),
   BRANCH: "main",
-  MODE: (process.env.MODE || 'private').toLowerCase(),
+  MODE: (process.env.MODE || 'publice').toLowerCase(),
   ERROR_MSG: toBool(process.env.ERROR_MSG) || true,
   LOG_MSG: toBool(process.env.LOG_MSG) || true,
   READ_CMD: toBool(process.env.READ_CMD),
@@ -29,7 +29,7 @@ module.exports = {
   MENU_URL: process.env.MENU_URL || "https://i.imgur.com/cO0TZJv.jpeg",
   CAPTION: process.env.CAPTION || "Iᴢᴜᴍɪ",
   READ_MSG: toBool(process.env.READ_MSG),
-  OWNER_NAME: process.env.OWNER_NAME || "Eypz God",
+  OWNER_NAME: process.env.OWNER_NAME || "Rahul_JI",
   BOT_NAME: process.env.BOT_NAME || "𝚰𝚭𝐔𝚳𝚰-𝚅3",
   SUDO: process.env.SUDO || null,
   LANG: process.env.LANGUAGE === undefined ? 'EN' : process.env.LANGUAGE.toUpperCase(),
